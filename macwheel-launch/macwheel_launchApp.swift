@@ -12,6 +12,8 @@ struct macwheel_launchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 600, maxWidth: 800)
         }
+        .windowResizability(.contentSize)
     }
 }
