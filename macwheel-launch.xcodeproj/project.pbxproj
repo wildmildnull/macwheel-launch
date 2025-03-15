@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DDA2E7142D853C400031BDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA2E6FA2D853C3F0031BDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA2E7012D853C3F0031BDCC;
+			remoteInfo = "macwheel-launch";
+		};
+		DDA2E71E2D853C400031BDCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDA2E6FA2D853C3F0031BDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA2E7012D853C3F0031BDCC;
+			remoteInfo = "macwheel-launch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDA2E7022D853C3F0031BDCC /* macwheel-launch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macwheel-launch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA2E7132D853C400031BDCC /* macwheel-launchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macwheel-launchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA2E71D2D853C400031BDCC /* macwheel-launchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macwheel-launchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDA2E7042D853C3F0031BDCC /* macwheel-launch */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macwheel-launch";
+			sourceTree = "<group>";
+		};
+		DDA2E7162D853C400031BDCC /* macwheel-launchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macwheel-launchTests";
+			sourceTree = "<group>";
+		};
+		DDA2E7202D853C400031BDCC /* macwheel-launchUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macwheel-launchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA2E6FF2D853C3F0031BDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E7102D853C400031BDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E71A2D853C400031BDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDA2E6F92D853C3F0031BDCC = {
+			isa = PBXGroup;
+			children = (
+				DDA2E7042D853C3F0031BDCC /* macwheel-launch */,
+				DDA2E7162D853C400031BDCC /* macwheel-launchTests */,
+				DDA2E7202D853C400031BDCC /* macwheel-launchUITests */,
+				DDA2E7032D853C3F0031BDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDA2E7032D853C3F0031BDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA2E7022D853C3F0031BDCC /* macwheel-launch.app */,
+				DDA2E7132D853C400031BDCC /* macwheel-launchTests.xctest */,
+				DDA2E71D2D853C400031BDCC /* macwheel-launchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDA2E7012D853C3F0031BDCC /* macwheel-launch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA2E7272D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launch" */;
+			buildPhases = (
+				DDA2E6FE2D853C3F0031BDCC /* Sources */,
+				DDA2E6FF2D853C3F0031BDCC /* Frameworks */,
+				DDA2E7002D853C3F0031BDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDA2E7042D853C3F0031BDCC /* macwheel-launch */,
+			);
+			name = "macwheel-launch";
+			packageProductDependencies = (
+			);
+			productName = "macwheel-launch";
+			productReference = DDA2E7022D853C3F0031BDCC /* macwheel-launch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDA2E7122D853C400031BDCC /* macwheel-launchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA2E72A2D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launchTests" */;
+			buildPhases = (
+				DDA2E70F2D853C400031BDCC /* Sources */,
+				DDA2E7102D853C400031BDCC /* Frameworks */,
+				DDA2E7112D853C400031BDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA2E7152D853C400031BDCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDA2E7162D853C400031BDCC /* macwheel-launchTests */,
+			);
+			name = "macwheel-launchTests";
+			packageProductDependencies = (
+			);
+			productName = "macwheel-launchTests";
+			productReference = DDA2E7132D853C400031BDCC /* macwheel-launchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDA2E71C2D853C400031BDCC /* macwheel-launchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA2E72D2D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launchUITests" */;
+			buildPhases = (
+				DDA2E7192D853C400031BDCC /* Sources */,
+				DDA2E71A2D853C400031BDCC /* Frameworks */,
+				DDA2E71B2D853C400031BDCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA2E71F2D853C400031BDCC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDA2E7202D853C400031BDCC /* macwheel-launchUITests */,
+			);
+			name = "macwheel-launchUITests";
+			packageProductDependencies = (
+			);
+			productName = "macwheel-launchUITests";
+			productReference = DDA2E71D2D853C400031BDCC /* macwheel-launchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDA2E6FA2D853C3F0031BDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DDA2E7012D853C3F0031BDCC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DDA2E7122D853C400031BDCC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DDA2E7012D853C3F0031BDCC;
+					};
+					DDA2E71C2D853C400031BDCC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DDA2E7012D853C3F0031BDCC;
+					};
+				};
+			};
+			buildConfigurationList = DDA2E6FD2D853C3F0031BDCC /* Build configuration list for PBXProject "macwheel-launch" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDA2E6F92D853C3F0031BDCC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDA2E7032D853C3F0031BDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA2E7012D853C3F0031BDCC /* macwheel-launch */,
+				DDA2E7122D853C400031BDCC /* macwheel-launchTests */,
+				DDA2E71C2D853C400031BDCC /* macwheel-launchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDA2E7002D853C3F0031BDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E7112D853C400031BDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E71B2D853C400031BDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDA2E6FE2D853C3F0031BDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E70F2D853C400031BDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2E7192D853C400031BDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDA2E7152D853C400031BDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA2E7012D853C3F0031BDCC /* macwheel-launch */;
+			targetProxy = DDA2E7142D853C400031BDCC /* PBXContainerItemProxy */;
+		};
+		DDA2E71F2D853C400031BDCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDA2E7012D853C3F0031BDCC /* macwheel-launch */;
+			targetProxy = DDA2E71E2D853C400031BDCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDA2E7252D853C400031BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDA2E7262D853C400031BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DDA2E7282D853C400031BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macwheel-launch/macwheel_launch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macwheel-launch/Preview Content\"";
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DDA2E7292D853C400031BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macwheel-launch/macwheel_launch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macwheel-launch/Preview Content\"";
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDA2E72B2D853C400031BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macwheel-launch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macwheel-launch";
+			};
+			name = Debug;
+		};
+		DDA2E72C2D853C400031BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macwheel-launch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macwheel-launch";
+			};
+			name = Release;
+		};
+		DDA2E72E2D853C400031BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macwheel-launch";
+			};
+			name = Debug;
+		};
+		DDA2E72F2D853C400031BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97GEKX6SFC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.101a.mw.macwheel-launchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macwheel-launch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDA2E6FD2D853C3F0031BDCC /* Build configuration list for PBXProject "macwheel-launch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA2E7252D853C400031BDCC /* Debug */,
+				DDA2E7262D853C400031BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA2E7272D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA2E7282D853C400031BDCC /* Debug */,
+				DDA2E7292D853C400031BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA2E72A2D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA2E72B2D853C400031BDCC /* Debug */,
+				DDA2E72C2D853C400031BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA2E72D2D853C400031BDCC /* Build configuration list for PBXNativeTarget "macwheel-launchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA2E72E2D853C400031BDCC /* Debug */,
+				DDA2E72F2D853C400031BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDA2E6FA2D853C3F0031BDCC /* Project object */;
+}
