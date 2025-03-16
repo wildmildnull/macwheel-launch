@@ -3,24 +3,24 @@ The best way to learn is imitation, and the best way to imitate is to reinvent t
 
 <p align="center">
 <img src="https://github.com/wildmildnull/simple-picture-host/blob/main/macwheel-launch-appIcon.png" alt="launch" title="luanch" width="256"/>
-<p align="center"><b>Launch</b> is a macOS Launch imitator written in pure Swift.</p>
+<p align="center"><b>MacWheel-Launch</b> is a macOS Launch imitator written in pure Swift.</p>
 <p align="center">
 </p>
 
 ### Screenshot
 ![图片描述](https://github.com/wildmildnull/simple-picture-host/blob/main/macwheel-launch.png)
 
-**macOS Launch** is a macOS App which is similar to built-in Launch in macOS, it gives you an alertnative to manage your applications. It has no animation, no full screen to occupy whole workspace when you pay attention to work, and also no scrolling workspace, everything is in front of you.
+**macwheel-launch** is a macOS App which is similar to built-in Launch in macOS, it gives you an alertnative to manage your applications. It has no animation, no full screen to occupy whole workspace when you pay attention to work, and also no scrolling workspace, every app is in front of you.
 
 ### Features
 
 - [x] Easy to learn for new learner
 - [x] A simple and plain window
-- [x] Lower footprint
 - [x] Support search, customized display rows
 - [x] Support open and redirect to app in Finder
-- [ ] Dark mode support
+- [x] Lower footprint
 - [ ] Mark to favourite as needed
+- [ ] Dark mode support
 - [ ] Group support
 - [ ] TBD
 
