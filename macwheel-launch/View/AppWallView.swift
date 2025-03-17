@@ -32,7 +32,6 @@ struct AppWallView: View {
     
     var body: some View {
         ScrollView {
-            Image("Books")
             LazyVGrid(columns: columns, spacing: 10) {
                 ForEach(filteredApps, id: \.bundleID) { app in
                     VStack {
