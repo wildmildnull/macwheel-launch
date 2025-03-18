@@ -8,58 +8,68 @@
 import SwiftUI
 
 struct AppWallView: View {
+    
     @EnvironmentObject private var viewModel: AppWallViewModel
     @State private var searchText = ""
     @State private var selectedIndex = 1
+    @State private var viewMode: ViewMode = .grid
     
     private let options = ["2", "3", "4", "5"]
     
-    private var columns:[GridItem] {
-        if let num = Int(options[selectedIndex]) {
-            return Array(repeating: GridItem(.flexible(), spacing: 1), count: num)
-        } else {
-            return Array(repeating: GridItem(.flexible(), spacing: 1), count: viewModel.defaultNumOfColumn)
-        }
-    }
-    
-    var filteredApps: [AppInfo] {
-        if searchText.isEmpty {
-            return viewModel.appIcons
-        } else {
-            return viewModel.appIcons.filter { $0.name.localizedCaseInsensitiveContains(searchText) }
-        }
-    }
-    
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: columns, spacing: 10) {
-                ForEach(filteredApps, id: \.bundleID) { app in
-                    VStack {
-                        createAppIconView(with: app)
-                        createAppTextView(with: app)
-                    }
-                }
+        VStack {
+            switch viewMode {
+            case .grid:
+                GridView(searchText: $searchText, selectedIndex: $selectedIndex)
+            case .list:
+                ListView(searchText: $searchText)
             }
-            .padding()
         }
         .searchable(text: $searchText, placement: .toolbar)
         .searchPresentationToolbarBehavior(.avoidHidingContent)
         .toolbar {
-            Picker("Select", selection: $selectedIndex) {
-                ForEach(0..<options.count, id:\.self) { index in
-                    Text(options[index]).tag(index)
+            ToolbarItem(placement: .automatic) {
+                HStack {
+                    viewModeButton(
+                        systemImage: "square.grid.2x2",
+                        mode: .grid,
+                        label: "Grid View"
+                    )
+                    
+                    viewModeButton(
+                        systemImage: "list.bullet",
+                        mode: .list,
+                        label: "List View"
+                    )
+                    
+                    Picker("Select", selection: $selectedIndex) {
+                        ForEach(0..<options.count, id:\.self) { index in
+                            Text(options[index]).tag(index)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                    .frame(width: 100, height: 20, alignment: .leading)
+                    .disabled(viewMode == .grid ? false : true)
                 }
             }
-            .pickerStyle(.menu)
-            .frame(width: 100, height: 20, alignment: .leading)
         }
         .task {
             await loadAppIcons()
         }
     }
     
+    // 视图模式切换按钮组件
+    private func viewModeButton(systemImage: String, mode: ViewMode, label: String) -> some View {
+        Button {
+            viewMode = mode
+        } label: {
+            Image(systemName: systemImage)
+                .foregroundStyle(viewMode == mode ? .blue : .gray)
+        }
+        .help(label)
+    }
+    
     private func loadAppIcons() async {
-        
         if !viewModel.appIcons.isEmpty {
             print("Loading data from cache.")
             return
@@ -196,6 +206,11 @@ struct AppWallView: View {
             .lineLimit(2)
             .frame(width: 80)
     }
+}
+
+enum ViewMode {
+    case grid
+    case list
 }
 
 
