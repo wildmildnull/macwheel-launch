@@ -63,8 +63,9 @@ struct GridView: View {
         }
     }
 
+    @ViewBuilder
     private func createAppTextView(with app: AppInfo) -> some View {
-        return Text(app.name)
+         Text(app.name)
             .font(.caption)
             .lineLimit(2)
             .frame(width: 80)
